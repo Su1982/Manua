@@ -16,13 +16,36 @@ out/
 .env.local
 .env.*.local
 .env.production
+.env.development
 *.pem
 *.key
 *.p12
 *.pfx
+*.cer
+*.crt
 secrets.yml
 secrets.json
 credentials.json
+config.json
+auth.json
+
+# SSH Keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.ppk
+
+# API Keys & Tokens
+.token
+.tokens
+token.txt
+api_key.txt
+
+# Database
+*.sqlite
+*.db
+dump.sql
 
 # OS files
 .DS_Store
